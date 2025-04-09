@@ -1,0 +1,23 @@
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn-search {
+    background-color: #1f1f1f;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .input-search {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #1f1f1f;
+    width: 300px;
+    border-left: none;
+  }
+  

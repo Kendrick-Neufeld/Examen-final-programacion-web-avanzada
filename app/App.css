@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .webmadewell {
+    background-color: #9e3635; 
+  }
+  
+  .sample-header {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("https://wallpapercave.com/wp/wp5501319.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px; 
+  }
+  
+  .sample-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #4b524a; 
+    opacity: 0.3;
+    z-index: 0;
+  }
+  
+  .sample-header-section {
+    position: relative;
+    padding: 5% 0 0; 
+    max-width: 640px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .sample-header h1 {
+    font-size: 2rem; 
+    margin-bottom: 0.5rem; 
+  }
+  
+  .sample-header h2 {
+    font-size: 2rem; 
+    margin-top: 0; 
+  }
+  
+  .sample-section {
+    position: relative;
+    z-index: 10;
+    padding: 2rem;
+  }
+  
+  .search-bar-container {
+    position: relative;
+    margin-top: 20px; 
+    z-index: 2; 
+  }
+  
+  #picsandtitle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .footer {
+    margin-top: 4rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: #eee;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .menu__link {
+    text-decoration: none;
+    color: #333;
+  }
+  
